@@ -1,0 +1,110 @@
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px; /* Ajusté el tamaño de fuente base */
+  margin: 0;
+  box-sizing: border-box;
+  text-align: left;
+  background-color: #e9baaf;
+  
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+h1, h3, h5, p {
+  margin: 10px 0;
+}
+h3
+{
+  font-size: 14px;
+}
+h2{
+  color: #791d1d;
+  font-family: 'Young Serif', serif;
+}
+
+table {
+  width: 100%; /* Hacer la tabla ocupar el 100% del contenedor */
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+.container {
+  background-color: #ffffff; /* Color blanco para el contenedor */
+  border: 5px solid #ffffff; /* Borde blanco alrededor del contenedor */
+  padding: 20px; /* Padding para el contenedor */
+  border-radius: 20px;
+}
+
+.preparation
+{
+  border: 2px solid rgb(233,216,183);
+  border-radius: 20px;
+  background-color: rgb(233, 216, 183);
+}
+/* Estilo normal para el enlace */
+a {
+  color: blue;
+}
+/* Estilos para la línea de separación */
+.separador {
+  border: 1px solid hsl(0, 8%, 58%); /* Color y grosor de la línea */
+  margin: 20px 0; /* Espaciado alrededor de la línea */
+}
+
+/* Estilo cuando el enlace está en estado de "hover" (ratón encima) */
+a:hover {
+  color: red;
+  text-decoration: underline; /* Agregué un subrayado al pasar el ratón */
+}
+/* Estilo normal para el campo de entrada */
+
+/* Estilos para pantallas móviles (320px - 480px) */
+@media (max-width: 320px) {
+  body {
+    font-size: 14px; /* Ajusté el tamaño de fuente para móviles */
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+  }
+
+  img {
+    max-width: 100%; /* Ajusté el ancho máximo para móviles */
+  }
+
+  table {
+    margin:0 auto;
+    width: 100%; /* Hacer la tabla ocupar el 100% del contenedor en móviles */
+  }
+}
+
+/* Estilos para tabletas (768px - 1040px) */
+@media (max-width: 768px) {
+  body {
+    padding: 30px;
+    font-size: 16px; /* Restauré el tamaño de fuente para tabletas */
+  }
+
+  img {
+    max-width: 80%; /* Ajusté el ancho máximo para tabletas */
+  }
+}
+
+/* Estilos para escritorios (+1024px) */
+@media (min-width: 1024px) {
+  body{
+    padding:10%;
+  }
+  img {
+    text-align: left;
+    
+    max-width: 100%; /* Ajusté el ancho máximo para escritorios */
+  }
+}
