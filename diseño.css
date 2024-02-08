@@ -46,6 +46,10 @@ table, th, td {
 .preparation
 {
   border: 2px solid rgb(233,216,183);
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
   border-radius: 20px;
   background-color: rgb(233, 216, 183);
 }
